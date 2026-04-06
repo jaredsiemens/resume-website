@@ -8,19 +8,19 @@ class ProjectTest {
 
     @Test
     void constructorSetsAllFields() {
-        String[] tags = {"Java", "Spring Boot"};
+        String[] tags = { "Java", "Spring Boot" };
         Project project = new Project("My Project", "A description", "https://github.com/test", tags);
 
-        assertEquals("My Project", project.getName());
-        assertEquals("A description", project.getDescription());
-        assertEquals("https://github.com/test", project.getUrl());
-        assertArrayEquals(tags, project.getTags());
+        assertEquals("My Project", project.name());
+        assertEquals("A description", project.description());
+        assertEquals("https://github.com/test", project.url());
+        assertArrayEquals(tags, project.tags());
     }
 
     @Test
     void tagsCanBeEmpty() {
-        Project project = new Project("No Tags", "A description", "https://github.com/test", new String[]{});
+        Project project = new Project("No Tags", "A description", "https://github.com/test", new String[] {});
 
-        assertEquals(0, project.getTags().length);
+        assertEquals(0, project.tags().length);
     }
 }

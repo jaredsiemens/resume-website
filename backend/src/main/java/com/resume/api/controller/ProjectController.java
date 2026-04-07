@@ -16,7 +16,7 @@ public class ProjectController {
         return List.of(
             new Project(
                 "Resume Website",
-                "A full stack resume web application with a React front end and Java Spring Boot REST API backend. Features dynamic project and resume data served from a REST API, deployed with Docker.",
+                "A full stack resume web application built to gain hands-on experience with end-to-end deployment and to learn Java. Features a React front end consuming a Spring Boot REST API, with resume and project data served dynamically and the whole stack containerized with Docker.",
                 "https://github.com/jaredsiemens/resume-website",
                 new String[]{"React", "Java", "Spring Boot"}
             ),

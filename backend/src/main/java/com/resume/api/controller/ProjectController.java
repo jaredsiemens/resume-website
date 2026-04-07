@@ -15,10 +15,10 @@ public class ProjectController {
     public List<Project> getProjects() {
         return List.of(
             new Project(
-                "Project One",
-                "A short description of what this project does and why you built it.",
-                "https://github.com/yourusername/project-one",
-                new String[]{"Java", "Spring Boot"}
+                "Resume Website",
+                "A full stack resume web application built to gain hands-on experience with end-to-end deployment and to learn Java. Features a React front end consuming a Spring Boot REST API, with resume and project data served dynamically and the whole stack containerized with Docker.",
+                "https://github.com/jaredsiemens/resume-website",
+                new String[]{"React", "Java", "Spring Boot"}
             ),
             new Project(
                 "Project Two",

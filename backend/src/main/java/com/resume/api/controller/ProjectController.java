@@ -15,10 +15,10 @@ public class ProjectController {
     public List<Project> getProjects() {
         return List.of(
             new Project(
-                "Project One",
-                "A short description of what this project does and why you built it.",
-                "https://github.com/yourusername/project-one",
-                new String[]{"Java", "Spring Boot"}
+                "Resume Website",
+                "A React front end, Java backend, full stack web application.",
+                "https://github.com/jaredsiemens/resume-website",
+                new String[]{"React", "Java", "Spring Boot"}
             ),
             new Project(
                 "Project Two",

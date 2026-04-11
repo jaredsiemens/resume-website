@@ -8,6 +8,14 @@ export default function Home() {
         I care about building things that matter, whether that's reliable systems in high-stakes environments
         or ML-driven tools that actually get used. Looking to take that into a role where the work has real impact.
       </p>
+      <a
+        href="https://www.linkedin.com/in/jared-siemens/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block mt-6 px-6 py-2 border border-purple-400 text-purple-400 rounded hover:bg-purple-400 hover:text-black transition-colors"
+      >
+        LinkedIn
+      </a>
     </div>
   )
 }
